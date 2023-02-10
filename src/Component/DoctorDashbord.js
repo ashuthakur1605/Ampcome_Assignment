@@ -10,9 +10,6 @@ import gorup1118 from './Html/public/group-1118.svg'
 import summaryicon from './Html/public/summaryicon.svg'
 import component59 from './Html/public/component-59.svg'
 import graph from './Html/public/Graph.png'
-// import gorup1115 from './Html/public/group-1115.png'
-// import gorup1116 from './Html/public/group-1116.png'
-// import gorup1117 from './Html/public/group-1117.png'
 function DoctorDashbord() {
   return (
     <div className="Dashbord">
@@ -37,17 +34,6 @@ function DoctorDashbord() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
       <div className="patientsDatails"></div>
 
 
@@ -56,12 +42,12 @@ function DoctorDashbord() {
         <img src={component59} alt="" />
         <div className="text">Total Earnings</div>
         <div className="int">₹4000</div>
-        <select class="form-select" aria-label="Default select example">
+        <select className="form-select" aria-label="Default select example">
           
           <option selected>PRK Hospital</option>
           <option value="1">One</option>
         </select>
-        <select class="form-select2" aria-label="Default select example">
+        <select className="form-select2" aria-label="Default select example">
           
           <option selected>Last 7 days</option>
           <option value="1">One</option>
@@ -91,11 +77,7 @@ function DoctorDashbord() {
 
       <article className="Article">
         <img src={Rectangle} alt=''/>
-        {/* <div className="Articon1"><img src={gorup1112} alt="" /></div> */}
-        {/* <div className="Articon2"></div>
-        <div className="Articon3"></div>
-        <div className="Articon4"></div>
-        <div className="Articon5"></div> */}
+      
   
         
         <div className='activity'><img src={gorup1113} alt="" />activity</div>

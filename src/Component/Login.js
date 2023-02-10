@@ -1,6 +1,7 @@
 import React from 'react'
 // import DoctorDashbord from './DoctorDashbord'
 import Frame from './Html/Frame.jpg'
+import './Html/Css/index.css'
 function Login() {
 
     

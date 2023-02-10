@@ -1,16 +1,38 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import Login from './Component/Login'
+
+import Login from './Component/Login'
 // import './Component/Html/Css/index.css'
-// import './Component/Html/Css/DoctorDashbord.css'
 import DoctorDashbord from './Component/DoctorDashbord';
+// import './Component/Html/Css/DoctorDashbord.css'
+
 
 function App() {
     return (
-  // <Login/>
-<DoctorDashbord/>
+      <>
+      
+    
+    
+        <Login/>
+      
+      
+        <br />
+        
+
+
+
+        <div>
+        <DoctorDashbord/>
+
+        </div>
+      
+      
+   
+
+
+
+
   
     
+      </>
   )
 }
 
