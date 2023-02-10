@@ -1,0 +1,226 @@
+body {
+  margin: 0px;
+}
+
+.login {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+
+  background: #ffffff;
+}
+
+/* Container-1 Css */
+
+.Container-1 {
+  position: absolute;
+  width: 775px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+}
+.Rectangle {
+  /* Rectangle 162 */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #f0f4fc;
+}
+.Welcome {
+  position: absolute;
+  width: 292px;
+  height: 30px;
+  left: 239px;
+  top: 141px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #203765;
+}
+
+.Text {
+  position: absolute;
+  width: 471px;
+  height: 22px;
+  left: 149px;
+  top: 196px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  text-align: center;
+
+  color: rgba(32, 55, 101, 0.8);
+}
+
+.Frame {
+  position: absolute;
+  width: 528px;
+  height: 332px;
+  left: 135px;
+  top: 285px;
+}
+
+/* Container-2 Sin-In Form  */
+
+.Container-2 p {
+  /* Sign-in to your account Text in P*/
+
+  position: absolute;
+  width: 249px;
+  height: 28px;
+  left: 960px;
+  top: 292px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 125%;
+  /* identical to box height, or 28px */
+
+  color: #29375f;
+}
+
+.User {
+  position: absolute;
+  width: 294px;
+  height: 44px;
+  left: 960px;
+  top: 352px;
+}
+.UserName {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #ffffff;
+  border: 1px solid rgba(192, 206, 255, 0.7);
+  border-radius: 6px;
+}
+
+.UserName::placeholder {
+  position: absolute;
+  left: 9.52%;
+  right: 47.62%;
+  top: 27.27%;
+  bottom: 28.73%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  color: rgba(41, 55, 95, 0.4);
+}
+
+.Pass {
+  position: absolute;
+  width: 294px;
+  height: 44px;
+  left: 960px;
+  top: 412px;
+}
+.PassWord {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #ffffff;
+  border: 1px solid rgba(192, 206, 255, 0.7);
+  border-radius: 6px;
+}
+
+.PassWord::placeholder {
+  position: absolute;
+  left: 9.52%;
+  right: 47.62%;
+  top: 27.27%;
+  bottom: 28.73%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  color: rgba(41, 55, 95, 0.4);
+}
+
+
+.Select-Unit{
+  
+position: absolute;
+left: 66.67%;
+right: 12.92%;
+top: 52.44%;
+bottom: 42.67%;
+
+background: #FFFFFF;
+border: 1px solid #BFD2F3;
+border-radius: 6px;
+}
+
+.Select-Unit option{
+
+  position: absolute;
+  left: 85%;
+  right: 12.92%;
+  top: 52.44%;
+  bottom: 42.67%;
+}
+
+
+.SignIn{
+  position: absolute;
+  width: 293px;
+  height: 44px;
+  left: 961px;
+  top: 564px;
+
+
+}
+.SignIn-button{
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: none;
+  
+  background: #FC6964;
+  border-radius: 12px;
+
+  
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
